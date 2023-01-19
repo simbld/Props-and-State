@@ -1,13 +1,83 @@
+.friend-item {
+  width: 100%;
+  border-bottom: 1.5px solid #a31cf1;
+  padding-bottom: 5%;
+}
+
+.friend-button {
+  background: #ef233c;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+}
+
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(162, 162, 196);
+  margin: auto;
+  width: 90%;
+  font-family: Lato;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.titre-container {
+  justify-content: flex;
+  border: 3px solid rgb(124, 13, 113);
+  background-color: rgb(54, 54, 137);
+}
+
+h1 {
+  background-color: rgb(193, 223, 223);
+  box-shadow: 0px 0px 2px 2px purple;
+  border: 2px solid blue;
+}
+
+.text-center {
+  border: 3px solid rgb(182, 96, 96);
+  text-align: center;
+  align-items: center;
+  width: 80%;
+  height: 40px;
+  color: rgb(88, 51, 145);
+  background-color: rgb(238, 220, 196);
+  margin: 2.5%;
+  font-size: 160%;
+  padding: 7%;
+}
+.friend-item {
+  display: grid;
+  grid-template-columns: 30% 30% 30%; /* définit trois colonnes de même taille */
+  gap: 4%;
+  grid-template-rows: auto; /* définit une seule ligne */
+  justify-content: center; /* centre les éléments horizontalement */
+  align-items: center; /* centre les éléments verticalement */
+  justify-items: center; /* centre les éléments dans leur cellule */
+}
+button {
+  box-shadow: 0px 0px 2px 1px purple;
+  margin-bottom: 1%;
+}
+.item {
+  font-size: small;
+  height: 30%;
+  width: auto;
+  background-color: rgb(238, 220, 196);
+  box-shadow: 0px 0px 2px 2px purple;
+  border: 2px solid blue;
+  border-color: aqua;
+  border-width: 2px;
+  border-style: ridge;
+  border-radius: 5px;
+  padding: 6%;
+  color: blue;
+  text-align: center;
+  display: flex;
+  align-items: center;
 }

@@ -3,7 +3,7 @@ import './App.css';
 import MenuList from './components/MenuList';
 
 
-const App = () => {
+const App = (props) => {
   return (
     <div>
       <h1>Wild Restaurant Menu</h1>
